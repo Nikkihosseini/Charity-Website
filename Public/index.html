@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="./Image/logo.png" rel="icon" type="image/png">
+    <link href="styles/app.css" rel="stylesheet">
+    <title>Global Charity</title>
+</head>
+<body class="font-Poppins bg-gray-250 text-brown-100">
+<!-- All App Icon -->
+<svg class="hidden">
+
+    <?xml version="1.0" encoding="utf-8"?><symbol version="1.1" id="education" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 122.88 101.37" style="enable-background:new 0 0 122.88 101.37" xml:space="preserve"><g><path d="M12.64,77.27l0.31-54.92h-6.2v69.88c8.52-2.2,17.07-3.6,25.68-3.66c7.95-0.05,15.9,1.06,23.87,3.76 c-4.95-4.01-10.47-6.96-16.36-8.88c-7.42-2.42-15.44-3.22-23.66-2.52c-1.86,0.15-3.48-1.23-3.64-3.08 C12.62,77.65,12.62,77.46,12.64,77.27L12.64,77.27z M103.62,19.48c-0.02-0.16-0.04-0.33-0.04-0.51c0-0.17,0.01-0.34,0.04-0.51V7.34 c-7.8-0.74-15.84,0.12-22.86,2.78c-6.56,2.49-12.22,6.58-15.9,12.44V85.9c5.72-3.82,11.57-6.96,17.58-9.1 c6.85-2.44,13.89-3.6,21.18-3.02V19.48L103.62,19.48z M110.37,15.6h9.14c1.86,0,3.37,1.51,3.37,3.37v77.66 c0,1.86-1.51,3.37-3.37,3.37c-0.38,0-0.75-0.06-1.09-0.18c-9.4-2.69-18.74-4.48-27.99-4.54c-9.02-0.06-18.03,1.53-27.08,5.52 c-0.56,0.37-1.23,0.57-1.92,0.56c-0.68,0.01-1.35-0.19-1.92-0.56c-9.04-4-18.06-5.58-27.08-5.52c-9.25,0.06-18.58,1.85-27.99,4.54 c-0.34,0.12-0.71,0.18-1.09,0.18C1.51,100.01,0,98.5,0,96.64V18.97c0-1.86,1.51-3.37,3.37-3.37h9.61l0.06-11.26 c0.01-1.62,1.15-2.96,2.68-3.28l0,0c8.87-1.85,19.65-1.39,29.1,2.23c6.53,2.5,12.46,6.49,16.79,12.25 c4.37-5.37,10.21-9.23,16.78-11.72c8.98-3.41,19.34-4.23,29.09-2.8c1.68,0.24,2.88,1.69,2.88,3.33h0V15.6L110.37,15.6z M68.13,91.82c7.45-2.34,14.89-3.3,22.33-3.26c8.61,0.05,17.16,1.46,25.68,3.66V22.35h-5.77v55.22c0,1.86-1.51,3.37-3.37,3.37 c-0.27,0-0.53-0.03-0.78-0.09c-7.38-1.16-14.53-0.2-21.51,2.29C79.09,85.15,73.57,88.15,68.13,91.82L68.13,91.82z M58.12,85.25 V22.46c-3.53-6.23-9.24-10.4-15.69-12.87c-7.31-2.8-15.52-3.43-22.68-2.41l-0.38,66.81c7.81-0.28,15.45,0.71,22.64,3.06 C47.73,78.91,53.15,81.64,58.12,85.25L58.12,85.25z"/></g></symbol>
+</svg>
+<!--   App Header   -->
+
+    <header class="fixed left-0 right-0 z-50 hidden md:flex items-center mx-auto py-6 bg-gray-250">
+        <!--   Logo & Meno   -->
+        <div class="container flex-center justify-between">
+            <img class="w-52 xl:w-[300px]" src="./Image/main-logo.png" alt="logo">
+            <div class="flex-center">
+                <ul class="flex-center font-semibold lg:text-base child:ml-6 xl:child:ml-8">
+                    <li>
+                        <a class="header_link--active">Home</a>
+                    </li>
+                    <li>
+                        <a>Projects</a>
+                    </li>
+                    <li>
+                        <a>About Us</a>
+                    </li>
+                    <li>
+                        <a>What We Do</a>
+                    </li>
+                    <li>
+                        <a>Community</a>
+                    </li>
+                </ul>
+                <!--   header btn   -->
+                <a class="btn hidden lg:flex bg-brown-100 border-none ml-8 hover:text-orange-640 transition-all">Donate Now</a>
+            </div>
+        </div> 
+    </header>
+
+       <!--   Mobile Meno   -->
+       <div class="flex-center justify-between md:hidden px-4 h-16 ">
+           <!--   Mobile Meno Logo  -->
+          <img class="w-52" src="./Image/main-logo.png" alt="logo">
+        <!--   Mobile Hamburger Menu   -->
+          <div class="hamburger-menu">
+            <span class="line"></span>
+              <!--   Mobile Menu List  -->
+            <div class="menu fixed -left-64 top-0 bottom-0 w-64 bg-gray-250 px-5 pt-4 transition-all">
+                <h2 class="font-PoppinsBold text-center tracking-widest text-2xl border-b border-b-zinc-950 mb-4 pb-4">
+                    Global <span class="text-orange-640">Charity</span>
+                </h2>
+                <ul class="mobile-menu font-PoppinsSemiBold child:mb-8">
+                    <li>
+                        <a class="mobile-menu__link mobile-menu__link--active">Home</a>
+                    </li>
+                    <li>
+                        <a class="mobile-menu__link">Projects</a>
+                    </li>
+                    <li>
+                        <a class="mobile-menu__link">About Us</a>
+                    </li>
+                    <li>
+                        <a class="mobile-menu__link">What We Do</a>
+                    </li>
+                    <li>
+                        <a class="mobile-menu__link">Community</a>
+                    </li>
+                </ul>
+                <a class="btn bg-brown-100 border-none mx-auto hover:text-orange-640 transition-all">Donate Now</a>
+            </div>
+          </div>
+       </div>
+
+<!--   App Main   -->
+    <main>
+        <section class="home h-screen">
+               <div class="container overflow-y-hidden h-full md:min-h-screen flex-center text-center md:text-start justify-center md:justify-start">
+                  <div class="text-white ">
+                      <h1 class="font-PoppinsBold text-[80px] sm:text-[120px] text-orange-640">Donate</h1>
+                      <h2 class="font-PoppinsBold text-5xl sm:text-6xl -mt-2 sm:-mt-10">4 a better world</h2>
+                      <p class="max-w-[700px] min-w-[350px] hidden xs:block mt-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Egestas purus viverra accumsan in nisl nisi</p>
+                      <div class="flex-center justify-center md:justify-start xs:gap-x-12 gap-y-8 mt-4 xs:mt-8 flex-wrap">
+                          <a class="btn  hover:bg-orange-640 transition-all">Donate Now</a>
+                          <a class="btn  hover:bg-orange-640 transition-all">Read More</a>
+                      </div>
+                  </div>
+               </div>
+        </section>
+    </main>
+
+
+   <script src="./Script/script.js"></script>
+</body>
+</html>
