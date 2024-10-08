@@ -665,7 +665,7 @@ a{
 }
 
 .home{
-  background-image: linear-gradient(rgba(59, 55, 53, .5), rgba(59, 55, 53, .5)), url("../Public/image/jpg-img/children-img-header.jpg");
+  background-image: linear-gradient(rgba(59, 55, 53, .5), rgba(59, 55, 53, .5)), url('../Public/Image/jpg-img/children-img-header.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
@@ -751,6 +751,70 @@ a{
   padding-left: 1.5rem;
 }
 
+/*  Head Section  */
+
+.head-section{
+  margin-top: 8rem;
+  margin-bottom: 6rem;
+  text-align: center;
+}
+
+.head-section__title{
+  font-family: "sans-serif", "Poppins Bold";
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.head-section__line{
+  display: block;
+  width: 20rem;
+  height: 0.3rem;
+  background-color: #fd5800;
+  margin: 1.5rem auto 0 auto;
+}
+
+/* Section Prohect */
+
+.projects-item {
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 1rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 236 179 / var(--tw-bg-opacity));
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  text-align: center;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  display: flex;
+  align-items: center;
+}
+
+.projects-item:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 183 77 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.projects-title {
+  margin-top: 1rem;
+  font-family: Poppins SemiBold;
+  font-size: 20px;
+}
+
+.projects-content {
+  margin-top: 1.25rem;
+  max-width: 300px;
+}
+
+.visible {
+  visibility: visible;
+}
+
 .fixed {
   position: fixed;
 }
@@ -800,12 +864,29 @@ a{
   margin-top: 1rem;
 }
 
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
 .mt-8 {
   margin-top: 2rem;
 }
 
+.grid {
+  display: grid;
+}
+
 .hidden {
   display: none;
+}
+
+.size-6 {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.h-14 {
+  height: 3.5rem;
 }
 
 .h-16 {
@@ -818,6 +899,10 @@ a{
 
 .h-screen {
   height: 100vh;
+}
+
+.w-14 {
+  width: 3.5rem;
 }
 
 .w-52 {
@@ -836,6 +921,10 @@ a{
   max-width: 700px;
 }
 
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .flex-wrap {
   flex-wrap: wrap;
 }
@@ -850,6 +939,10 @@ a{
 
 .justify-between {
   justify-content: space-between;
+}
+
+.gap-7 {
+  gap: 1.75rem;
 }
 
 .gap-y-8 {
