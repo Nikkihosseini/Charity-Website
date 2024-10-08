@@ -7,6 +7,8 @@ export const theme = {
   extend: {
     colors: {
       'orange': {
+        250: '#FFECB3',
+        260: '#FFB74D',
         640: '#fd5800',
         650: '#ff8901',
       },
