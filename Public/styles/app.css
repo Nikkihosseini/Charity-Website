@@ -606,9 +606,17 @@ a{
   padding-left: 1rem;
 }
 
-@media (min-width: 350px) {
+@media (min-width: 320px) {
   .container {
-    max-width: 350px;
+    max-width: 320px;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+}
+
+@media (min-width: 480px) {
+  .container {
+    max-width: 480px;
     padding-right: 1rem;
     padding-left: 1rem;
   }
@@ -665,7 +673,7 @@ a{
 }
 
 .home{
-  background-image: linear-gradient(rgba(59, 55, 53, .5), rgba(59, 55, 53, .5)), url('../Public/Image/jpg-img/children-img-header.jpg');
+  background-image: linear-gradient(rgba(59, 55, 53, 0.5), rgba(59, 55, 53, 0.5)), url("../Public/Image/children-img-header.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
@@ -768,47 +776,9 @@ a{
 .head-section__line{
   display: block;
   width: 20rem;
-  height: 0.3rem;
+  height: 0.2rem;
   background-color: #fd5800;
   margin: 1.5rem auto 0 auto;
-}
-
-/* Section Prohect */
-
-.projects-item {
-  flex-direction: column;
-  justify-content: center;
-  border-radius: 1rem;
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 236 179 / var(--tw-bg-opacity));
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  text-align: center;
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-  display: flex;
-  align-items: center;
-}
-
-.projects-item:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 183 77 / var(--tw-bg-opacity));
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.projects-title {
-  margin-top: 1rem;
-  font-family: Poppins SemiBold;
-  font-size: 20px;
-}
-
-.projects-content {
-  margin-top: 1.25rem;
-  max-width: 300px;
 }
 
 .visible {
@@ -872,6 +842,13 @@ a{
   margin-top: 2rem;
 }
 
+.line-clamp-4 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+}
+
 .grid {
   display: grid;
 }
@@ -917,12 +894,20 @@ a{
   min-width: 350px;
 }
 
+.max-w-\[300px\] {
+  max-width: 300px;
+}
+
 .max-w-\[700px\] {
   max-width: 700px;
 }
 
-.grid-cols-3 {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.flex-col {
+  flex-direction: column;
 }
 
 .flex-wrap {
@@ -953,6 +938,10 @@ a{
   overflow-y: hidden;
 }
 
+.rounded-2xl {
+  border-radius: 1rem;
+}
+
 .border-b {
   border-bottom-width: 1px;
 }
@@ -976,6 +965,16 @@ a{
   background-color: rgb(248 244 241 / var(--tw-bg-opacity));
 }
 
+.bg-orange-250 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 236 179 / var(--tw-bg-opacity));
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -984,6 +983,11 @@ a{
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 .py-6 {
@@ -1025,6 +1029,10 @@ a{
   line-height: 1;
 }
 
+.text-\[20px\] {
+  font-size: 20px;
+}
+
 .text-\[80px\] {
   font-size: 80px;
 }
@@ -1063,6 +1071,11 @@ a{
   align-items: center;
 }
 
+.hover\:bg-orange-260:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 183 77 / var(--tw-bg-opacity));
+}
+
 .hover\:bg-orange-640:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(253 88 0 / var(--tw-bg-opacity));
@@ -1073,6 +1086,11 @@ a{
   color: rgb(253 88 0 / var(--tw-text-opacity));
 }
 
+.hover\:text-white:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 .child\:mb-8 > * {
   margin-bottom: 2rem;
 }
@@ -1081,7 +1099,7 @@ a{
   margin-left: 1.5rem;
 }
 
-@media (min-width: 350px) {
+@media (min-width: 480px) {
   .xs\:mt-8 {
     margin-top: 2rem;
   }
@@ -1124,6 +1142,10 @@ a{
     min-height: 100vh;
   }
 
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .md\:justify-start {
     justify-content: flex-start;
   }
@@ -1136,6 +1158,15 @@ a{
 @media (min-width: 1024px) {
   .lg\:flex {
     display: flex;
+  }
+
+  .lg\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .lg\:px-2 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
 
   .lg\:text-base {

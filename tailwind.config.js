@@ -33,7 +33,8 @@ export const theme = {
       center: true,
       padding: {
         DEFAULT: '1rem',
-        xs: '1rem',
+        xxs: '0.5rem',
+        'xs': '1rem',
         sm: '1rem',
         lg: '1rem',
         xl: '3rem',
@@ -41,10 +42,11 @@ export const theme = {
       },
     },
     backgroundImage: {
-      "home-desktop": "url(../image/jpg-img/children-img-header.jpg)",
+      "home-desktop": "url(../image/children-img-header.jpg)",
     },
     screens: {
-      'xs': '350px',
+      'xxs': '320px',
+      'xs': '480px',
       'sm': '640px',
       'md': '768px',
       'lg': '1024px',
