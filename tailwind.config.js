@@ -7,6 +7,7 @@ export const theme = {
   extend: {
     colors: {
       'orange': {
+        150: '#f6cc76',
         250: '#FFECB3',
         260: '#FFB74D',
         640: '#fd5800',
@@ -40,9 +41,6 @@ export const theme = {
         xl: '3rem',
         '2xl': '6rem',
       },
-    },
-    backgroundImage: {
-      "home-desktop": "url(../image/children-img-header.jpg)",
     },
     screens: {
       'xxs': '320px',
