@@ -53,7 +53,7 @@
     }
 
      .home{
-         background-image: linear-gradient(rgba(59, 55, 53, 0.5), rgba(59, 55, 53, 0.5)), url("../Public/Image/children-img-header.jpg");
+         background-image: linear-gradient(rgba(59, 55, 53, 0.5), rgba(59, 55, 53, 0.5)), url("../Image/children-header.jpg");
          background-repeat: no-repeat;
          background-size: cover;
          background-position: center top;
@@ -151,7 +151,7 @@
     }
     .head-section__line{
         display: block;
-        width: 20rem;
+        width: 16rem;
         height: 0.2rem;
         background-color: #fd5800;
         margin: 1.5rem auto 0 auto;
@@ -159,7 +159,8 @@
 
 
 
-  
+
+
  
   
 }

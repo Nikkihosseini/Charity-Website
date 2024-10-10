@@ -1,7 +1,18 @@
 const $ = document
 const  hamburgerMenu = $.querySelector('.hamburger-menu')
 const  mobileMenu = $.querySelector('.menu')
+const aboutUsImg = $.querySelector('.about-us__img')
+const nextBtn = $.querySelector('.next-btn')
 
+let gallery = [
+        "./Image/jpg-img/girl-img.png",
+        "./Image/jpg-img/boy-img.jpeg",
+        "./Image/jpg-img/girl2-img.jpg",
+        "./Image/jpg-img/boy2-img.jpeg",
+        "./Image/jpg-img/boy3-img.jpeg",
+    ]
+
+let galleryIndex = 0
 
 hamburgerMenu.addEventListener('click', ()=>{
     hamburgerMenu.classList.toggle('hamburger-menu--open')
@@ -17,6 +28,14 @@ hamburgerMenu.addEventListener('click', ()=>{
     }
 
 })
+
+nextBtn.addEventListener('click', function(){
+        galleryIndex --
+        if(galleryIndex < 0 ){
+            galleryIndex = 4
+        }
+        aboutUsImg.setAttribute('src' , gallery[galleryIndex])
+    })
 
 
 
