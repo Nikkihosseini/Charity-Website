@@ -882,6 +882,18 @@ a{
   margin-top: 2rem;
 }
 
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
 .line-clamp-4 {
   overflow: hidden;
   display: -webkit-box;
@@ -942,6 +954,14 @@ a{
   height: 100vh;
 }
 
+.h-\[320px\] {
+  height: 320px;
+}
+
+.h-\[460px\] {
+  height: 460px;
+}
+
 .max-h-\[670px\] {
   max-height: 670px;
 }
@@ -984,6 +1004,10 @@ a{
 
 .w-full {
   width: 100%;
+}
+
+.w-\[240px\] {
+  width: 240px;
 }
 
 .min-w-\[350px\] {
@@ -1087,6 +1111,10 @@ a{
   border-bottom-width: 1px;
 }
 
+.border-l-2 {
+  border-left-width: 2px;
+}
+
 .border-none {
   border-style: none;
 }
@@ -1094,6 +1122,11 @@ a{
 .border-b-zinc-950 {
   --tw-border-opacity: 1;
   border-bottom-color: rgb(9 9 11 / var(--tw-border-opacity));
+}
+
+.border-l-orange-650 {
+  --tw-border-opacity: 1;
+  border-left-color: rgb(255 137 1 / var(--tw-border-opacity));
 }
 
 .bg-brown-100 {
@@ -1146,12 +1179,26 @@ a{
   padding-bottom: 1.5rem;
 }
 
+.px-12 {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
 .pb-4 {
   padding-bottom: 1rem;
 }
 
 .pt-4 {
   padding-top: 1rem;
+}
+
+.pl-4 {
+  padding-left: 1rem;
 }
 
 .text-center {
@@ -1191,6 +1238,16 @@ a{
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 .font-semibold {
@@ -1305,11 +1362,28 @@ a{
     -moz-column-gap: 3rem;
          column-gap: 3rem;
   }
+
+  .xs\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
 }
 
 @media (min-width: 640px) {
   .sm\:-mt-10 {
     margin-top: -2.5rem;
+  }
+
+  .sm\:mb-8 {
+    margin-bottom: 2rem;
+  }
+
+  .sm\:h-\[590px\] {
+    height: 590px;
+  }
+
+  .sm\:w-\[480px\] {
+    width: 480px;
   }
 
   .sm\:text-6xl {
@@ -1319,6 +1393,16 @@ a{
 
   .sm\:text-\[120px\] {
     font-size: 120px;
+  }
+
+  .sm\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .sm\:flex-center{
+    display: flex;
+    align-items: center;
   }
 }
 
@@ -1349,12 +1433,45 @@ a{
 }
 
 @media (min-width: 1024px) {
+  .lg\:mb-12 {
+    margin-bottom: 3rem;
+  }
+
+  .lg\:mt-0 {
+    margin-top: 0px;
+  }
+
   .lg\:flex {
     display: flex;
   }
 
+  .lg\:hidden {
+    display: none;
+  }
+
+  .lg\:h-\[695px\] {
+    height: 695px;
+  }
+
+  .lg\:max-h-\[695px\] {
+    max-height: 695px;
+  }
+
+  .lg\:max-w-\[500px\] {
+    max-width: 500px;
+  }
+
   .lg\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .lg\:flex-row {
+    flex-direction: row;
+  }
+
+  .lg\:gap-x-20 {
+    -moz-column-gap: 5rem;
+         column-gap: 5rem;
   }
 
   .lg\:px-2 {
@@ -1369,8 +1486,57 @@ a{
 }
 
 @media (min-width: 1280px) {
+  .xl\:block {
+    display: block;
+  }
+
+  .xl\:h-20 {
+    height: 5rem;
+  }
+
   .xl\:w-\[300px\] {
     width: 300px;
+  }
+
+  .xl\:w-20 {
+    width: 5rem;
+  }
+
+  .xl\:items-center {
+    align-items: center;
+  }
+
+  .xl\:gap-x-36 {
+    -moz-column-gap: 9rem;
+         column-gap: 9rem;
+  }
+
+  .xl\:border-hidden {
+    border-style: hidden;
+  }
+
+  .xl\:px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .xl\:py-6 {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .xl\:pl-0 {
+    padding-left: 0px;
+  }
+
+  .xl\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .xl\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 
   .xl\:child\:ml-8 > * {
