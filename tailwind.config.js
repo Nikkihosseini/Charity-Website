@@ -34,10 +34,10 @@ export const theme = {
       center: true,
       padding: {
         DEFAULT: '1rem',
-        xxs: '0.5rem',
+        xxs: '1rem',
         'xs': '1rem',
-        sm: '1rem',
-        lg: '1rem',
+        sm: '1.5rem',
+        lg: '2rem',
         xl: '3rem',
         '2xl': '6rem',
       },
