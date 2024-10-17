@@ -10,4 +10,4 @@ This is a responsive (but not dynamic) landing page project with HTML, CSS and J
 -Tailwind CSS
 
 ### Snapshot
-[![charity-website.jpg](https://ibb.co/p2fT0Zc)
+<a href="https://ibb.co/p2fT0Zc"><img src="https://i.ibb.co/VVgGjDR/charity-website.jpg" alt="charity-website" border="0"></a>
