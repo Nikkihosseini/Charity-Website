@@ -171,16 +171,8 @@
         background-color: #532116;
     }
 
-    /* What We Do */
-    .bg-gradient{
-        transition: all 150ms ease-in-out;
-    }
 
-    .bg-gradient:hover{
-        background-image: linear-gradient(rgba(227,186,107,0.3) ,rgba(227, 185, 107, 0.3));
-    }
-
-
+    
 
 
 
