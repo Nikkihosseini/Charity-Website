@@ -21,7 +21,10 @@ export const theme = {
       },
       'black':{
         100: 'rgba(59,55,53,0.5)',
-      }
+      },
+      'blue': {
+        650: '#4f7abe',
+      },
     },
     fontFamily: {
       "Poppins": "Poppins",
