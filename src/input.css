@@ -37,6 +37,10 @@
     a{
         cursor: pointer;
     }
+
+    .container{
+        position: relative;
+    }
 }
 
 @layer components{
@@ -184,9 +188,6 @@
     .flex-center{
         display: flex;
         align-items: center;
-    }
-    .transtorm-skew{
-        transform: translateZ(0) skewY(5deg);
     }
 }
 
