@@ -30,13 +30,12 @@ hamburgerMenu.addEventListener('click', ()=>{
 })
 
 nextBtn.addEventListener('click', function(){
-        galleryIndex --
+    galleryIndex --
         if(galleryIndex < 0 ){
             galleryIndex = 4
         }
         aboutUsImg.setAttribute('src' , gallery[galleryIndex])
     })
-
 
 
 // const btnArrow = document.querySelector('.about-us__arrow')

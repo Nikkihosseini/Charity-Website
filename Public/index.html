@@ -178,7 +178,7 @@
                 <div class="hidden lg:flex relative">
                     <img class="rounded-xl block max-h-[670px] max-w-[514px]" src="./Image/jpg-img/Artboard-2.jpg" alt="Artboard">
                     <div class="w-[514px] h-[695px] overflow-hidden rounded-xl absolute top-[-28px] left-5 bottom-0 transition-all">
-                        <img class="block w-full h-full" src="./Image/jpg-img/girl-img.png" alt="image">
+                        <img class="about-us__img block w-full h-full" src="./Image/jpg-img/girl-img.png" alt="image">
                     </div>
                     <span class="next-btn rounded-full flex-center justify-center w-12 h-12 absolute top-[275px] right-[-44px] bg-orange-640 cursor-pointer">
                                 <svg class="w-5 h-5 text-brown-100">
@@ -356,25 +356,29 @@
 <footer class="mt-40 bg-brown-100">
     <div class="container">
 <!--   Footer wrapper   -->
-        <div class="flex-center py-12 text-white">
+        <div class="flex-center flex-col md:flex-row py-8 md:py-12 text-white">
             <!--   Footer wrapper Right   -->
-            <div class="basis-1/2 border-r-2 border-orange-650">
+            <div class="basis-1/2 border-b-2 border-orange-650 md:border-none">
                 <!--   Footer Form   -->
-                <form>
-                        <label class="text-lg">
-                            <span class="font-PoppinsBold text-2xl">Join the Movement:</span>
-                            Never Miss a Thing.
-                        </label>
-                        <input class="py-2.5 px-12 outline-none border-none text-center mt-3" id="email" name="email" type="email" placeholder="Enter Your Email">
-                        <button class="font-PoppinsBold outline-none border-none py-2.5 px-8 bg-orange-640" type="submit" >Submit</button>
-                    </form>
+               <div class="">
+                   <form>
+                       <label class="text-sm lg:text-lg">
+                           <span class="font-PoppinsBold text-lg lg:text-2xl">Join the Movement:</span>
+                           Never Miss a Thing.
+                       </label>
+                       <div>
+                           <input class="px-1 py-1 sm:py-2 sm:px-4 lg:py-2.5 lg:px-12 outline-none border-none text-center mt-3" id="email" name="email" type="email" placeholder="Enter Your Email">
+                           <button class="font-PoppinsBold outline-none border-none px-1 py-1 sm:py-2 lg:py-2.5 sm:px-4 lg:px-8 bg-orange-640 mt-4 xxs:mt-0" type="submit" >Submit</button>
+                       </div>
+                   </form>
+               </div>
                 <!--   Footer Content   -->
                 <div>
-                    <div class="font-PoppinsSemiBold mt-8">
-                        <span class="mr-4">MAIL: Contant@ourcharity.com</span>
-                        <span>PHONE: +24 3772 120 091/ +56452 4567</span>
+                    <div class="font-PoppinsSemiBold  flex-center flex-wrap text-sm mt-8">
+                        <span class="inline-block mr-4">MAIL: Contant@ourcharity.com</span>
+                        <span class="inline-block md:mt-3 xl:mt-0">PHONE: +24 3772 120 091 / +56452 4567</span>
                     </div>
-                    <div class="mt-7">
+                    <div class="mt-7 mb-5 md:mb-0">
                         <p class="font-PoppinsSemiBold mb-2">Contact With Us:</p>
                         <div class="flex-center gap-x-4 text-white">
                             <a href="#">
@@ -398,8 +402,8 @@
                 </div>
             </div>
             <!--   Footer wrapper Left  -->
-            <div class="basis-1/2 flex justify-center">
-                <div class="flex flex-col mr-12 ml-12 max-w-[400px]">
+            <div class="basis-1/2 flex justify-center sm:justify-start flex-wrap md:flex-nowrap text-center md:text-start max-w-[512px] max-w-auto mt-5 md:mt-0">
+                <div class="flex flex-col sm:mr-12 lg:ml-12 md:ml-6 max-w-[400px] mb-3 md::mb-0">
                     <h5 class="font-PoppinsSemiBold text-xl mb-4">Who We Are</h5>
                     <ul class="child:text-sm child:mb-1">
                         <li class="">
@@ -429,7 +433,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="flex flex-col mr-12 max-w-[400px]">
+                <div class="flex flex-col sm:mr-12 max-w-[400px] mb-3 sm:mb-0">
                     <h5 class="font-PoppinsSemiBold text-xl mb-4">Whate We Do</h5>
                     <ul class="child:text-sm child:mb-1">
                         <li class="">
