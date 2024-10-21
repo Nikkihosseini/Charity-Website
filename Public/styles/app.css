@@ -1207,6 +1207,10 @@ a{
   overflow: hidden;
 }
 
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
 .overflow-y-hidden {
   overflow-y: hidden;
 }
@@ -1599,6 +1603,10 @@ a{
 @media (min-width: 480px) {
   .xs\:mt-8 {
     margin-top: 2rem;
+  }
+
+  .xs\:mt-0 {
+    margin-top: 0px;
   }
 
   .xs\:block {
