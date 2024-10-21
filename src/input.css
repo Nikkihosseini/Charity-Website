@@ -37,6 +37,10 @@
     a{
         cursor: pointer;
     }
+
+    .container{
+        position: relative;
+    }
 }
 
 @layer components{
@@ -171,14 +175,7 @@
         background-color: #532116;
     }
 
-    .bg-gradient{
-        transition: all 150ms ease-in;
-    }
 
-    .bg-gradient:hover{
-        background-image: linear-gradient(rgba(246,204,118,0.3) , rgba(246,204,118,0.3));
-        transition: all 150ms ease-in;
-    }
 
     
 
@@ -191,9 +188,6 @@
     .flex-center{
         display: flex;
         align-items: center;
-    }
-    .transtorm-skew{
-        transform: translateZ(0) skewY(5deg);
     }
 }
 
