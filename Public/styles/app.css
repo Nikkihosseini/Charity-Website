@@ -1820,6 +1820,10 @@ a{
     justify-content: flex-start;
   }
 
+  .md\:justify-between {
+    justify-content: space-between;
+  }
+
   .md\:border-r-2 {
     border-right-width: 2px;
   }
