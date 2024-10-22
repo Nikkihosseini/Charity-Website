@@ -557,7 +557,7 @@ video {
 @font-face {
   font-family: "Poppins";
 
-  src: local('Poppins'), url("../fonts/Poppins-Regular.ttf") format("truetype");
+  src: local('Poppins'), url("./fonts/Poppins-Regular.ttf") format("truetype");
 
   font-display: swap;
 }
@@ -565,7 +565,7 @@ video {
 @font-face {
   font-family: "Poppins Medium";
 
-  src: local('Poppins'), url("../fonts/Poppins-Medium.ttf") format("truetype");
+  src: local('Poppins'), url("./fonts/Poppins-Medium.ttf") format("truetype");
 
   font-display: swap;
 }
@@ -573,7 +573,7 @@ video {
 @font-face {
   font-family: "Poppins SemiBold";
 
-  src: local('Poppins'), url("../fonts/Poppins-SemiBold.ttf") format("truetype");
+  src: local('Poppins'), url("./fonts/Poppins-SemiBold.ttf") format("truetype");
 
   font-display: swap;
 }
@@ -581,7 +581,7 @@ video {
 @font-face {
   font-family: "Poppins Bold";
 
-  src: local('Poppins'), url("../fonts/Poppins-Bold.ttf") format("truetype");
+  src: local('Poppins'), url("./fonts/Poppins-Bold.ttf") format("truetype");
 
   font-display: swap;
 }
@@ -589,7 +589,7 @@ video {
 @font-face {
   font-family: "Poppins Black";
 
-  src: local('Poppins'), url("../fonts/Poppins-Black.ttf") format("truetype");
+  src: local('Poppins'), url("./fonts/Poppins-Black.ttf") format("truetype");
 
   font-display: swap;
 }
