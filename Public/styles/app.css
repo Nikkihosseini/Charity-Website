@@ -600,6 +600,13 @@ a{
 
 .container{
   position: relative;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
@@ -678,6 +685,12 @@ a{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
+  height: 100vh;
+}
+
+.header-menu__item--active{
+  transition: all 150ms ease-in 100ms;
+  color: #fd5800;
 }
 
 .hamburger-menu{
@@ -825,6 +838,10 @@ a{
 
 .-left-64 {
   left: -16rem;
+}
+
+.-top-5 {
+  top: -1.25rem;
 }
 
 .bottom-0 {
@@ -986,6 +1003,11 @@ a{
   display: none;
 }
 
+.size-5 {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
 .size-6 {
   width: 1.5rem;
   height: 1.5rem;
@@ -993,6 +1015,10 @@ a{
 
 .h-0\.5 {
   height: 0.125rem;
+}
+
+.h-10 {
+  height: 2.5rem;
 }
 
 .h-12 {
@@ -1039,16 +1065,16 @@ a{
   height: 100%;
 }
 
-.h-screen {
-  height: 100vh;
-}
-
 .max-h-\[550px\] {
   max-height: 550px;
 }
 
 .max-h-\[670px\] {
   max-height: 670px;
+}
+
+.w-10 {
+  width: 2.5rem;
 }
 
 .w-12 {
@@ -1594,19 +1620,13 @@ a{
   line-height: 1.25rem;
 }
 
-@media (min-width: 320px) {
-  .xxs\:mt-0 {
-    margin-top: 0px;
-  }
-}
-
 @media (min-width: 480px) {
-  .xs\:mt-8 {
-    margin-top: 2rem;
-  }
-
   .xs\:mt-0 {
     margin-top: 0px;
+  }
+
+  .xs\:mt-8 {
+    margin-top: 2rem;
   }
 
   .xs\:block {

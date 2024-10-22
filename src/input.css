@@ -41,6 +41,9 @@
     .container{
         position: relative;
     }
+    html {
+        scroll-behavior: smooth;
+    }
 }
 
 @layer components{
@@ -61,7 +64,13 @@
          background-repeat: no-repeat;
          background-size: cover;
          background-position: center top;
+         height: 100vh;
      }
+
+    .header-menu__item--active{
+        transition: all 150ms ease-in 100ms;
+        color: #fd5800;
+    }
     .hamburger-menu{
         display: flex;
         align-items: center;
